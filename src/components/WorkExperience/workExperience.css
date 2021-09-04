@@ -1,0 +1,78 @@
+.workExperience-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px 80px 80px 80px;
+}
+
+.workExperience-main-left,
+.workExperience-main-right {
+    width: 50%;
+}
+
+.workExperience-main-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.workExperience-main-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.workExperience-link-element {
+    color: #000;
+}
+
+.workExperience-sub-head {
+    margin: 0;
+}
+
+.workExperience-details {
+    margin: 10px 0 32px 0;
+}
+
+.workExperience-anime {
+    width: 520px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.vector-frame {
+    position: absolute;
+    z-index: -10;
+    left: 0;
+    bottom: 0;
+    width: 55%;
+}
+
+.workExperience-vector {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+    .vector-frame {
+        width: 90%;
+    }
+
+    .workExperience-head {
+        width: 80%;
+    }
+
+    .workExperience-head > p {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+
+    .workExperience-main {
+        padding: 50px 32px;
+    }
+
+    .workExperience-main-left,
+    .workExperience-main-right {
+        width: 100%;
+    }
+}
