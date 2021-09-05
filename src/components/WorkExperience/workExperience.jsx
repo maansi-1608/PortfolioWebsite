@@ -23,7 +23,7 @@ const workExperience = () => {
                     Supported software engineering projects in Agile work environment.{' '}
                         <a
                             className='workExperience-link-element'
-                            href='https://devpost.com/maansi-1608?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav'
+                            href='https://drive.google.com/file/d/1IwpUvqCJJwGgc8J4xgwL8MjRIU69J2YQ/view?usp=sharing'
                         >
                             June'21 - July'21
                         </a>
@@ -37,9 +37,9 @@ const workExperience = () => {
                     Analyzed problems, identified solutions and made decisions.{' '}
                         <a
                             className='workExperience-link-element'
-                            href='https://madhavbahl.medium.com/'
+                            href='https://drive.google.com/file/d/1IDe0SElu5JpKBWTAA8VAEfVZRanKT750/view?usp=sharing'
                         >
-                            my medium blogs today!
+                            June'20 - July'20
                         </a>
                     </p>
 
@@ -50,9 +50,9 @@ const workExperience = () => {
                     Analyzed problems, identified solutions and made decisions.{' '}
                         <a
                             className='workExperience-link-element'
-                            href='mailto:info@theleanprogrammer.com'
+                            href='https://drive.google.com/file/d/11ehpuRxCb6n496B8bredb4it11lC_uS5/view?usp=sharing'
                         >
-                            Email me the details!
+                            October'19
                         </a>
                     </p>
                 </div>

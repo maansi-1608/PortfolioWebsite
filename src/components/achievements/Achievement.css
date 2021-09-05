@@ -1,4 +1,4 @@
-.achievements-cards-container {
+.project-cards-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.achievement-card {
+.project-card {
     width: 500px;
     min-height: 550px;
     background: #fff;
@@ -18,7 +18,7 @@
     margin: 20px;
 }
 
-.achievement-card:hover {
+.project-card:hover {
     box-shadow: 0px 40px 50px rbga(0, 0, 0, 0.4);
     transition: all 0.3s;
 }
@@ -28,18 +28,18 @@
     border-radius: 20px 20px 0 0;
 }
 
-.achievement-external-link {
+.project-external-link {
     border-radius: inherit;
 }
 
-.achievement-image {
+.project-image {
     display: block;
     border-radius: inherit;
     max-height: 100%;
     max-width: 100%;
 }
 
-.achievement-details-container {
+.project-details-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -47,16 +47,11 @@
     padding: 20px;
 }
 
-.project-yt-link {
-    font-weight: 600;
-    color: #4089ed;
-}
-
-.achievement-heading {
+.project-heading {
     margin: 0;
 }
 
-.achievement-details {
+.project-details {
     font-weight: 300;
     font-size: 16px;
     line-height: 28px;
@@ -64,11 +59,11 @@
 }
 
 @media only screen and (max-width: 640px) {
-    .achievements-cards-container {
+    .project-cards-container {
         padding: 20px;
     }
 
-    .achievement-card {
+    .project-card {
         width: 290px;
         min-height: 500px;
     }

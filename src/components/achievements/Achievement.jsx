@@ -2,18 +2,18 @@ import React from 'react';
 import FooterLink from '../FooterLink/FooterLink';
 import Header from '../Header/Header';
 import { achievementData } from '../../assets/achievementsData';
-import achievementCard from './achievementCard';
-import './achievements.css';
+import ProjectCard from './AchievementCard';
+import './Achievement.css';
 
-const Achievemnets = () => {
+const Projects = () => {
     return (
         <div className='section-container'>
             <Header
                 heading='My Achievements.'
-                details="Here are a few things that I am proud of from my journey as a Developer!"
+                details="Here are a few thing that I am proud of from my journey as a developer so far."
             />
 
-            <div className='achievements-cards-container'>
+            <div className='project-cards-container'>
                 {achievementData.map(
                     ({
                         achievementName,
@@ -22,12 +22,11 @@ const Achievemnets = () => {
                         achievementUrl,
                     }) => {
                         return (
-                            <achievementCard
+                            <ProjectCard
                                 achievementName={achievementName}
                                 achievementDescription={achievementDescription}
                                 achievementUrl={achievementUrl}
                                 imageUrl={imageUrl}
-                                
                             />
                         );
                     }
@@ -43,4 +42,4 @@ const Achievemnets = () => {
     );
 };
 
-export default Achievemnets;
+export default Projects;

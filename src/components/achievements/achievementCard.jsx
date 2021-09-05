@@ -1,30 +1,31 @@
 import React from 'react';
-import './achievements.css';
+import './Achievement.css';
 
-const achievementCard = ({
+const ProjectCard = ({
     achievementName,
     achievementDescription,
     imageUrl,
+    videoUrl,
     achievementUrl,
 }) => {
     return (
-        <div className='achievement-card'>
+        <div className='project-card'>
             <div className='image-container'>
-                <a href={achievementUrl} className='achievement-external-link'>
+                <a href={achievementUrl} className='project-external-link'>
                     <img
                         src={imageUrl}
-                        alt='achievement'
-                        className='achievement-image'
+                        alt='project'
+                        className='project-image'
                     />
                 </a>
             </div>
 
-            <div className='achievement-details-container'>
-                <h2 className='achievement-heading'>{achievementName}</h2>
-                <p className='achievement-details'>{achievementDescription}</p>
+            <div className='project-details-container'>
+                <h2 className='project-heading'>{achievementName}</h2>
+                <p className='project-details'>{ achievementDescription}</p>
             </div>
         </div>
     );
 };
 
-export default achievementCard;
+export default ProjectCard;

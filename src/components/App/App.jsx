@@ -5,7 +5,7 @@ import About from './../About/About';
 import Projects from './../Projects/Projects';
 import Skills from './../Skills/Skills';
 import Contact from './../Contact/Contact';
-import Achievements from '../achievements/achievements';
+import Achievements from './../Achievements/Achievement';
 import workExperience from './../WorkExperience/workExperience';
 
 import './App.css';
