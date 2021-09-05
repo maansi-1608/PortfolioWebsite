@@ -1,6 +1,6 @@
 # React Portfolio
 
-Check it live here - 
+Check it live[here](http://maansi-1608.github.io/PortfolioWebsite)
 
 ## Libraries used
 
