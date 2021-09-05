@@ -18,20 +18,20 @@ export const projectsData = [
         projectUrl: 'https://devpost.com/software/covidproof',
     },
     {
-        projectName: 'Flexbox Cheatsheet',
+        projectName: 'Facial Gesture based Computer Interface',
         projectDescription:
-            'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. Learn the concepts of flexbox by building a cheatsheet which is built using flexbox. Super cool!',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj3.PNG',
+            "This is a program that facilitates touchless control of a user's computer. Scrolling is achieved by tilting the head, clicking is achieved by opening the mouth, and to move the cursor, the user moves their nose.",
+        imageUrl: 'https://user-images.githubusercontent.com/46049004/132126884-7995ca82-3358-430b-8b5b-cf465e2990de.png',
         videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrkKnaIrYeOolru4EakosHY',
-        projectUrl: 'http://theleanprogrammer.com/flex/',
+            'https://github.com/maansi-1608/GestureControlforMouse',
+        projectUrl: 'https://github.com/maansi-1608/GestureControlforMouse',
     },
     {
         projectName: 'Portfolio Website',
         projectDescription:
-            'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
+            'My personal Portfolio website which summarizes all my work and accomplishments as a developer.',
         imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj5.PNG',
-        videoUrl: 'http://theleanprogrammer.com/aam',
-        projectUrl: 'http://madhavbahl.tech/portfolio/',
+        videoUrl: 'https://github.com/maansi-1608/PortfolioWebsite ',
+        projectUrl: 'https://github.com/maansi-1608/PortfolioWebsite',
     },
 ];

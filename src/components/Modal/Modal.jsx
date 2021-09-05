@@ -18,7 +18,7 @@ const Modal = ({ closeModal }) => {
                 <div className='middle-section'>
                     <h3>Thanks for visiting my web page!</h3>
                     <p>
-                        This web portfolio is a gist of me as a budding engineer and developer. 
+                       I am Maansi Prerna and this web portfolio is a gist of me as a budding engineer and developer. 
                     </p>
                 </div>
                 <div className='lower-section'>
