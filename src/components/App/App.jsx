@@ -15,7 +15,7 @@ import GoHome from '../GoHome/GoHome';
 const App = () => {
     return (
         <div>
-            <HashRouter>
+            <HashRouter basename={process.env.PUBLIC_URL}>
                 <div>
                     <NavBar />
                     <Route path='/' exact component={Home} />
