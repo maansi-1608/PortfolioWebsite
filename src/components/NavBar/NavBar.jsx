@@ -37,7 +37,7 @@ class NavBar extends React.Component {
                     Projects
                 </Link>
                 <Link to='/achievements' className={`menu-item ${achievementsClass}`}>
-                    Achievemnets
+                    Achievements
                 </Link>
                 <Link to='/workexperience' className={`menu-item ${workExperienceClass}`}>
                     Work Experience

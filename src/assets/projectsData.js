@@ -2,7 +2,7 @@ export const projectsData = [
     {
         projectName: 'WellBe',
         projectDescription:
-            'Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!',
+            'An mobile application and healthcare band designed to bridge the gap between dementia patients and their caretakers.',
         imageUrl: 'https://user-images.githubusercontent.com/46049004/132103957-75f6c3a4-1034-41c1-aa92-a92338d1c7e2.jpg',
         videoUrl:
             'https://youtu.be/4e94jPVv0ZA',
